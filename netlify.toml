@@ -6,4 +6,7 @@
     includeSubDomains;
     preload'''
 
-/project3/* https://rainbow-frangollo-f398cb.netlify.app/project3/:splat
+[[redirects]]
+  from = "/project3/*"
+  to = "https://rainbow-frangollo-f398cb.netlify.app/project3/:splat"
+  status: 200
