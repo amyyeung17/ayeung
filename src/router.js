@@ -9,12 +9,12 @@ const router = createRouter({
       path: "/",
       name: "home",
       component: MainBody
-    }, 
+    }/*, 
     {
       path: "/:noPage(.*)",
       name: "notfound",
       component: NotFound
-    }
+    }*/
   ],
   scrollBehavior (to, _, savedPosition) {
     return new Promise((resolve, reject) => {
