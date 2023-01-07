@@ -6,13 +6,13 @@ const contactInfo = [
 ]
 
 const projectsInfoFinish = [
-  {title: 'Task App', desc: 'Includes a note-taker, timer, stopwatch, and calculator.', made: 'React, Redux, and Styled-Components'}, 
-  {title: 'Spotify Music App', desc: 'Get music recommendations curated based on the mood and inputted songs using the ', made: 'React, Node.js, Express, Axios, Bootstrap icons, and Styled-Components'}, 
-  {title: 'Facebook Clone', desc: 'A small mockup of Facebook with limited functionalities.', made: 'Vue, Pinia, Bootstrap, and Bootstrap icons'}
+  {title: 'Task App', desc: 'Includes a note-taker, timer, stopwatch, and calculator.', made: 'React, Redux, and Styled-Components', live: '', code: ''}, 
+  {title: 'Spotify Music App', desc: 'Get music recommendations curated based on the mood and inputted songs using the ', made: 'React, Node.js, Express, Axios, Bootstrap icons, and Styled-Components', live: '', code: ''}, 
+  {title: 'Facebook Clone', desc: 'A small mockup of Facebook with limited functionalities.', made: 'Vue, Pinia, Bootstrap, and Bootstrap icons', live: '/project3', code: '/'}
 ]
 
 const projectsInfoUp = [
-  {title: 'Pokémon Weakness', desc: 'Find which Pokémons are the most effective against inputted Pokemon with the ', made: 'React, Node, Express, Axios, Tailwind'}
+  {title: 'Pokémon Weakness', desc: 'Find which Pokémons are the most effective against inputted Pokemon with the ', made: 'React, Node, Express, Axios, Tailwind', live: '/', code: '/'}
 ]
 
 const skillsInfoMain = ['Javascript (ES6+)', 'CSS3', 'HTML5', 'React w/ JSX']

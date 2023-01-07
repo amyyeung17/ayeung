@@ -5,3 +5,5 @@
     max-age=63072000;
     includeSubDomains;
     preload'''
+
+/project3/* https://rainbow-frangollo-f398cb.netlify.app/project3/:splat
