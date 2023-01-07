@@ -8,5 +8,5 @@
 
 [[redirects]]
   from = "/project3/*"
-  to = "https://rainbow-frangollo-f398cb.netlify.app/project3/:splat"
+  to = "https://rainbow-frangollo-f398cb.netlify.app/:splat"
   status = 200
