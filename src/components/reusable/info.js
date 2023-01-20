@@ -6,8 +6,8 @@ const contactInfo = [
 ]
 
 const projectsInfoFinish = [
-  {title: 'Task App', desc: 'Includes a note-taker, timer, stopwatch, and calculator.', made: 'React, Redux, and Styled-Components', live: '', code: ''}, 
-  {title: 'Spotify Music App', desc: 'Get music recommendations curated based on the mood and inputted songs using the ', made: 'React, Node.js, Express, Axios, Bootstrap icons, and Styled-Components', live: '', code: ''}, 
+  {title: 'Task App', desc: 'Includes a note-taker, timer, stopwatch, and calculator.', made: 'React, Redux, and Styled-Components', live: '/project1', code: ''}, 
+  {title: 'Spotify Music App', desc: 'Get music recommendations curated based on the mood and inputted songs using the ', made: 'React, Node.js, Express, Axios, Bootstrap icons, and Styled-Components', live: '/project2', code: ''}, 
   {title: 'Facebook Clone', desc: 'A small mockup of Facebook with limited functionalities.', made: 'Vue, Pinia, Bootstrap, and Bootstrap icons', live: '/project3', code: '/'}
 ]
 
