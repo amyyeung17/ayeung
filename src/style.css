@@ -71,10 +71,6 @@ button:focus-visible {
   padding: 2em;
 }
 
-#app {
- 
-}
-
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

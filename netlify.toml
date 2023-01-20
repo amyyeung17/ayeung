@@ -10,3 +10,9 @@
   from = "/project3/*"
   to = "https://rainbow-frangollo-f398cb.netlify.app/:splat"
   status = 200
+
+
+  [[redirects]]
+  from = "/project1/*"
+  to = "https://endearing-fenglisu-0d38bc.netlify.app/:splat"
+  status = 200
