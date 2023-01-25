@@ -13,7 +13,7 @@
 
 [[redirects]]
   from = "/project2/*"
-  to = "https://bucolic-brigadeiros-e8dd80.netlify.app/:splat"
+  to = "https://gorgeous-figolla-ee9b84.netlify.app/:splat"
   status = 200
 
 [[redirects]]
