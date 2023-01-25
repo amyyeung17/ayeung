@@ -11,6 +11,10 @@
   to = "https://rainbow-frangollo-f398cb.netlify.app/:splat"
   status = 200
 
+[[redirects]]
+  from = "/project2/*"
+  to = "https://bucolic-brigadeiros-e8dd80.netlify.app/:splat"
+  status = 200
 
 [[redirects]]
   from = "/project1/*"
