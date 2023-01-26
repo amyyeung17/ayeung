@@ -16,7 +16,7 @@ const { scrollHeight } = useScroll()
 const display = ref(false)
 
 const popupStyle = buttonBasic + ' text-primary text-3xl m-2 font-medium hover:underline '
-const displayStyle = 'text-3xl border-none bg-transparent font-medium py-3 px-4 fixed top-0 nav-button'
+const displayStyle = 'text-2xl sm:text-3xl border-none bg-transparent font-medium py-3 px-4 fixed top-0 nav-button'
 
 </script>
 
@@ -43,7 +43,8 @@ button {
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .nav-button {
-    left: 91%;
+    right: 1%;
+    top: .1875rem;
   }
 }
 
