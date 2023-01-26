@@ -1,3 +1,7 @@
+<script setup>
+import { ref } from 'vue'
+</script>
+
 <template>
   <div class="flex flex-col items-center px-3">
     <h2 class="text-secondary text-xl font-medium"> Check out my final thesis </h2>
@@ -13,6 +17,7 @@
       Those diagnosed with Alzheimer's have shown to have a decrease in syntatic complexity and lexical diversity. Furthermore, there have been studies that have shown this method's prospects
       of differentiating between dementia types. 
     </p>
+    <button class="bg-secondary text-primary rounded-full border-2 border-secondary my-2"> Show more info </button>
     <button class="bg-secondary text-primary rounded-full border-2 border-secondary my-2"> Download </button>
   </div>
 </template>
