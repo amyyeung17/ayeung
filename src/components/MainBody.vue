@@ -1,7 +1,6 @@
 <script setup>
 import About from './sections/About.vue'
 import Contact from './sections/Contact.vue'
-import Experience from './sections/Experience.vue'
 import Projects from './sections/Projects.vue'
 import Skills from './sections/Skills.vue'
 import Welcome from './sections/Welcome.vue'

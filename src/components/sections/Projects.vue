@@ -9,17 +9,14 @@ import Options from '../projects/Options.vue'
 
 const currentOption = ref('Completed')
 
-const handleOptionsClick = (choice) => {
-  currentOption.value = choice
-}
 </script>
 
 <template>
   <div class="w-full relative overflow-hidden"> 
     <Layout :bg-style="'flex flex-col'" :lcol-style="layoutTwoStyle" :rcol-style="layoutTwoStyle">  
       <template #top>
-        <Heading :text="'Projects'" :extra-style="'mb-0'"/>
-        <Options :current-option="currentOption" @on-options-click="handleOptionsClick"/>
+        <Heading :text="'Projects'" :extra-style="'sm:mb-0'"/>
+        <Options :current-option="currentOption" @on-options-click="(c) => currentOption = c"/>
       </template>
       <template #left>
         <template v-if="currentOption === 'Completed'"> 
@@ -28,12 +25,11 @@ const handleOptionsClick = (choice) => {
         </template>
         <template v-else>
           <Card :item="projectsInfoUp[0]" />
-          <div class="h-52"> </div>
+          <div class="md:h-28"> </div>
         </template>
       </template>
       <template #right>
         <Card :item="projectsInfoFinish[2]" v-if="currentOption === 'Completed'" />
-        <div v-else class="border-2 border-primary-300 h-1/2 w-full"></div>
       </template>
     </Layout>
   </div>

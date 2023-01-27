@@ -1,5 +1,5 @@
 <script setup>
-//use () => []?
+//NOT IN USE
   defineProps({
     currentSkill: {
       type: String,

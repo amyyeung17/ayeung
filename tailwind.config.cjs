@@ -16,7 +16,9 @@ module.exports = {
         'primary-300': '#617293',
         'primary-400': '#40577F',
         'primary-500': '#1C3D6D',
+        'secondary-100': '#F4E1B6',
         secondary: '#EECD86',
+        'secondary-300': '#E9B954',
         'white-custom': '#E9EDEC',
       }
     },  

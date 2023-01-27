@@ -1,6 +1,7 @@
 <script setup>
-import Layout from '../reusable/Layout.vue'
-import Timeline from '../skills/Timeline.vue'
+import Layout from './components/reusable/Layout.vue'
+import Timeline from './Timeline.vue'
+//NOT IN USE
 </script>
 
 <template>

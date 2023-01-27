@@ -10,10 +10,8 @@ import { linkStyle } from '../reusable/style.js'
       class="flex items-center w-full my-1 px-3"
       :key="index"
     > 
-      <span :class="`bi bi-${i.icon} text-secondary text-3xl my-2 mx-3`"> </span>
-      <p class="text-primary-100 text-xl mx-1 my-2 pb-1"> 
-        <a :class="linkStyle + 'm-1 underline-offset-8'" :href="i.link" :target="i.text !== 'Email' && '_blank'"> {{i.linktext}} </a>
-      </p>
+      <span :class="`bi bi-${i.icon} text-primary-300 text-2xl my-2 mx-3`"> </span>
+        <a :class="linkStyle + ' text-xl mx-1 my-2 hover:text-secondary hover:underline underline-offset-4'" :href="i.link" :target="i.text !== 'Email' && '_blank'"> {{i.linktext}} </a>
     </div>
   </div>
 </template>

@@ -11,7 +11,7 @@ const setIcon = (skill) => {
       return 'javascript'
     case 'Vue':
       return 'vuejs'
-    case 'React w/ JSX':
+    case 'React (JSX)':
       return 'react'
     default:
       return skill.toLowerCase()
