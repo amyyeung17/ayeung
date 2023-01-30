@@ -1,4 +1,6 @@
 <script setup>
+import Credits from './contact/Credits.vue'
+
 import About from './sections/About.vue'
 import Contact from './sections/Contact.vue'
 import Projects from './sections/Projects.vue'

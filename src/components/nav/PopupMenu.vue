@@ -43,15 +43,12 @@ button {
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .nav-button {
-    right: 1%;
-    top: .1875rem;
+    top: .1rem;
   };
 }
 
-@media screen and (min-width: 768px) {
-  .nav-button {
-    right: 1.5%;
-  }
-}
+.nav-button {
+  right: 0;
+};
 
 </style>

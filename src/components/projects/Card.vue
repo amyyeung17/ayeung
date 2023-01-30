@@ -24,9 +24,9 @@ defineProps({
     </p>
     <p class="text-primary-100 mt-2"> <span class="bi bi-code-slash text-secondary mx-1"></span> {{ item.made }} </p>
     <div class="flex self-end text-primary-300 my-2">
-      <a :class="linkStyle + 'mx-2 underline-offset-4'" :href="item.info"> Info </a> /
+      <a :class="linkStyle + 'mx-2 underline-offset-4'" :href="item.info" target="_blank"> Info </a> /
       <a :class="linkStyle + 'mx-2 underline-offset-4'" :href="item.live"> Live </a> /
-      <a :class="linkStyle + 'mx-2 underline-offset-4'" href="" target="_blank"> Code </a> 
+      <a :class="linkStyle + 'mx-2 underline-offset-4'" :href="item.code" target="_blank"> Code </a> 
     </div>
   </div>
 </template>

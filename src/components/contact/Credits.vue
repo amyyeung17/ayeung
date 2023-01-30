@@ -10,3 +10,4 @@
     <p class="text-primary-100 max-sm:text-sm font-medium"> Developed with <span class="text-secondary bi bi-heart-fill"></span>  by Amy Yeung </p>
   </div>  
 </template>
+<!---->
