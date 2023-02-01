@@ -15,7 +15,7 @@ defineProps({
     <h3 class="text-secondary text-xl font-medium mt-2"> {{item.title}} <span v-if="item.extra === 'mobile'" class="text-primary-200 text-lg bi bi-phone mx-1"></span> </h3>
     <p class="text-primary-100 text-lg mt-2">  
       {{ item.desc }} 
-      <span v-if="item.title === 'Spotify Music App'"> 
+      <span v-if="item.title === 'Mood-ify'"> 
         <a :class="linkStyle + 'underline-offset-8'" href=""> Spotify API </a>.
       </span>
       <span v-if="item.title === 'Pokémon Weakness'"> 
