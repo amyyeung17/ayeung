@@ -30,6 +30,7 @@ const currentOption = ref('Completed')
       </template>
       <template #right>
         <Card :item="projectsInfoFinish[2]" v-if="currentOption === 'Completed'" />
+        <Card :item="projectsInfoUp[1]" v-else />
       </template>
     </Layout>
   </div>

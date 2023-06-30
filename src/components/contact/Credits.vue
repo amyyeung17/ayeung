@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-primary max-md:w-screen w-full h-16 px-2 md:py-3 flex flex-col items-center max-md:self-center relative max-sm:top-18 top-16"> 
+  <div class="bg-primary max-md:w-screen w-full h-16 px-2 md:py-3 flex flex-col items-center max-md:self-center relative max-sm:top-4 max-md:top-2 top-16"> 
     <p class="text-primary-100 max-sm:text-sm max-sm:text-center font-medium"> 
       <span class="text-secondary bi bi-code-slash"></span> 
       Made with <span class="max-sm:hidden devicon-vuejs-plain colored"></span> Vue, 
