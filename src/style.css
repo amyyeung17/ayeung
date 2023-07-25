@@ -16,6 +16,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  --vc-pgn-background-color: #B8C1D1 !important;
+  --vc-pgn-active-color: #EECD86 !important;
 }
 
 a {

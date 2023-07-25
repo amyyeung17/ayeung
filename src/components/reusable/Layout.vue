@@ -23,7 +23,7 @@ import { containerStyle } from './style.js'
 <template>
   <div :class="containerStyle + bgStyle"> 
     <slot name="top"></slot>
-    <div class="grid h-full" :class="gridStyle"> 
+    <div class="grid auto-rows-auto h-full" :class="gridStyle"> 
       <div class="flex flex-col" :class="lcolStyle"> 
         <slot name="left"> </slot>
       </div>
