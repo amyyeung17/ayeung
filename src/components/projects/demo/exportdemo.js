@@ -10,15 +10,15 @@ import taskstopgif from './task/stopopt.gif'
 import spotimage1 from './spotify/1.png'
 import spotimage3 from './spotify/3.png'
 import spotgif1 from './spotify/trackopt.gif'
-import spotgif2 from './spotify/resultvid.gif'
-import spotgif3 from './spotify/result2vid.gif'
+import spotgif2 from './spotify/result1opt.gif'
+import spotgif3 from './spotify/result2opt.gif'
 
 
 import socialimage1 from './socialmedia/1.png'
 import socialimage3 from './socialmedia/3.png'
 import socialimage4 from './socialmedia/4.png'
-import socialgif1 from './socialmedia/dash1vid.gif'
-import socialgif2 from './socialmedia/dash2vid.gif'
+import socialgif1 from './socialmedia/dash1opt.gif'
+import socialgif2 from './socialmedia/dash2opt.gif'
 
 
 export const vaDemo = [vaimage1, vaimage2, vagif]
