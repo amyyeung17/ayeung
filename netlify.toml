@@ -8,7 +8,7 @@
 
 [[redirects]]
   from = "/project4/*"
-  to = "https://frolicking-melba-30227a.netlify.app/:splat"
+  to = "https://frolicking-melba-30227a.netlify.app/project4/:splat"
   status = 200
 
 [[redirects]]
