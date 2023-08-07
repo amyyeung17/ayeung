@@ -23,13 +23,12 @@ const displayStyle = 'max-sm:text-2xl text-3xl border-none bg-transparent font-m
 <template>
   <button 
     v-if="scrollHeight > windowHeight || windowWidth < 767" 
-    :class="`text-primary-100 hover:text-secondary z-10 ${displayStyle}`" 
+    :class="`bi bi-list text-primary-100 hover:text-secondary z-10 ${displayStyle}`" 
     @click="display = !display"
   > 
-    <span class="bi bi-list"></span> 
   </button>
   <div v-if="display" class="bg-secondary flex justify-center h-screen w-full max-w-100 fixed top-0 z-10"> 
-    <button :class="`text-primary-500 hover:text-primary z-20 ${displayStyle}`" @click="display = !display"> <span class="bi bi-x-lg"></span> </button>
+    <button :class="`bi bi-x-lg text-primary-500 hover:text-primary z-20 ${displayStyle}`" @click="display = !display">  </button>
     <div class="flex flex-col justify-center h-full fixed top-0 z-12">
       <NavOptions :nav-style="popupStyle" @on-display-click="display = !display" />
     </div>

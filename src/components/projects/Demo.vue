@@ -11,10 +11,10 @@ defineProps({
 
 <template>
 
-    <carousel className="flex flex-col grow relative" :items-to-show="1"  wrapAround pauseAutoplayOnHover>
+    <carousel className="flex flex-col grow relative" :items-to-show="1"  wrapAround>
       <slide v-for="(slide, index) in demos" :key="index">
         <div className="h-48 w-64"> 
-          <img :src="slide" className="object-fill h-full w-full relative"  />
+          <img :src="slide" className="h-full object-fill relative w-full"  />
         </div>
       </slide>
       <template #addons>
@@ -24,12 +24,6 @@ defineProps({
 </template>
 
 <style lang="scss">
-.carousel__prev,
-.carousel__next {
-	border: #B8C1D1;
-  background: #B8C1D1;
-}
-
 .carousel__pagination-button {
 	border: #B8C1D1;
   background: #B8C1D1;

@@ -16,7 +16,7 @@ const info = [
     <div class="flex items-center justify-center w-8 h-8"> 
       <span :class="`bi bi-${i.icon} text-lg text-secondary`"> </span>
     </div>
-    <p class="ml-4 w-4/5 text-primary-100 font-medium"> {{ i.text }} </p>
+    <p class="ml-4 w-4/5 font-medium"> {{ i.text }} </p>
    </div>
   </div>
 </template>

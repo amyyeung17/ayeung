@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col px-3">
-    <h2 class="text-secondary text-xl font-medium"> Check out my final thesis </h2>
-    <p class="text-primary-100 font-medium  my-2"> 
+    <h2 class="text-xl"> Check out my final thesis </h2>
+    <p class="font-medium my-2"> 
       A broad overview on artificial intelligence and its presence in healthcare applications, 
       specifically natural language processing and up-and-coming dementia (commonly known as Alzheimer's) research.
     </p>

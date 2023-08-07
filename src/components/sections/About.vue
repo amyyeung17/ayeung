@@ -25,7 +25,7 @@ import image from '../about/received_410857410483641.jpeg'
     <div class="bg-primary w-full h-10 md:h-12"> </div>
     <Layout :bg-style="'my-6'" :lcol-style="'px-3 relative top-12 md:top-4'" :rcol-style="'px-3 relative top-20 md:top-4'">
       <template #left>
-        <h2 class="text-secondary text-xl font-medium"> I graduated from... </h2>
+        <h2 class="text-xl"> I graduated from... </h2>
         <Point />
       </template>
       <template #right>

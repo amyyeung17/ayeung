@@ -12,6 +12,7 @@ const getClass = (choice) => (
   buttonStyle + ' text-xl ' + (props.currentOption === choice ? ' underline' : ' hover:underline')
 )
 </script>
+
 <template>
   <div class="self-center flex justify-evenly w-1/2 py-2 px-3">
     <button :class="getClass('Completed')" @click="emits('on-options-click', 'Completed')"> Live </button>
