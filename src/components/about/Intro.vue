@@ -19,6 +19,6 @@ import { linkStyle } from '../reusable/style.js'
     I recently went on a huge 2-week trip to Japan and South Korea with my friends. Needless to say,
     I want to go back again already. :,)
     {{`\n \n`}}
-    Talk to me anytime, including opinions on my wacky London fit, at: <a :class="linkStyle + ' underline-offset-4 inline'" href="mailto:amyyeung17@gmail.com">amyyeung17@gmail.com</a>.
+    Talk to me anytime at: <a :class="linkStyle + ' underline-offset-4 inline'" href="mailto:amyyeung17@gmail.com">amyyeung17@gmail.com</a>.
   </div>
 </template>
