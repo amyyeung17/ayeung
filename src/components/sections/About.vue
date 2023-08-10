@@ -5,7 +5,7 @@ import { layoutTwoStyle } from '../reusable/style.js'
 import Filler from '../about/Filler.vue'
 import Intro from '../about/Intro.vue'
 import Point from '../about/Point.vue'
-import image from '../about/received_410857410483641.jpeg'
+import image from '../about/banana.jpeg'
 </script>
 
 <template>
