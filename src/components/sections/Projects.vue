@@ -12,7 +12,7 @@ import { socialDemo, spotifyDemo, taskDemo, vaDemo } from '../projects/demo/expo
 import Demo from '../projects/Demo.vue'
 
 const currentOption = ref('Completed')
-const showDemo = ref(true)
+const showDemo = ref(false)
 </script>
 
 <template>
