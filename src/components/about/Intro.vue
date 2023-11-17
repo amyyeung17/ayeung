@@ -6,7 +6,7 @@ import { linkStyle } from '../reusable/style.js'
   <div class="text-primary-100 p-2 relative top-4 whitespace-pre-line">
     I'm a learner that believes every experience can be an opportunity to grow from.
     I strive to work towards my goals and improve as much as I can each day, whether it be work-related or personal.
-    I'm passionate about helping others accompish their own goals and have worked extensively in STEM education. 
+    I'm passionate about helping others accomplish their own goals and have worked extensively in STEM education. 
     {{`\n \n`}}
     As a developer, I've been recently exploring more of the frontend side through
     side-projects. With each project, I enjoy challenging myself by integrating
