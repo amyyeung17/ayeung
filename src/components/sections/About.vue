@@ -19,7 +19,7 @@ import image from '../about/banana.jpeg'
         <Intro />
       </template>
       <template #right>
-        <img class="w-1/2 relative md:w-full lg:w-3/4 top-12 md:top-0" :src="image"/>
+        <img alt="About picture" class="w-1/2 relative md:w-full lg:w-3/4 top-12 md:top-0" :src="image"/>
       </template>
     </Layout>
     <div class="bg-primary w-full h-10 md:h-12"> </div>
