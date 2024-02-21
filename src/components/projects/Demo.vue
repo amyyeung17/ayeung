@@ -10,17 +10,16 @@ defineProps({
 </script>
 
 <template>
-
-    <carousel className="flex flex-col grow relative" :items-to-show="1"  wrapAround>
-      <slide v-for="(slide, index) in demos" :key="index">
-        <div className="h-48 w-64"> 
-          <img :src="slide" :alt="index + ' demo pic'" className="h-full object-fill relative w-full"  />
-        </div>
-      </slide>
-      <template #addons>
-        <pagination />
-      </template>
-    </carousel>
+  <carousel className="flex flex-col grow relative" :items-to-show="1"  wrapAround>
+    <slide v-for="(slide, index) in demos" :key="index">
+      <div className="h-48 w-64"> 
+        <img :src="slide" :alt="index + ' demo pic'" className="h-full object-fill relative w-full"  />
+      </div>
+    </slide>
+    <template #addons>
+      <pagination />
+    </template>
+  </carousel>
 </template>
 
 <style lang="scss">

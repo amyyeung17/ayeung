@@ -12,13 +12,21 @@ import { useScroll } from './reusable/scroll.js'
 
 <template>
   <Welcome />
-  <About id="about" />
-  <div lass="bg-primary w-full" id="skills"> 
-    <div class="w-full h-20"> </div>
-    <Skills />
-    <div class="w-full h-20"> </div>
+  <div id="about"> 
+    <div class="bg-primary w-full h-10 md:h-12"> </div>
+    <About />
+    <div class="bg-primary w-full h-10 md:h-12"> </div>
   </div>
-  <Projects id="projects" />
+  <div id="skills">
+    <div class="bg-primary w-full h-10 md:h-12"> </div>
+    <Skills />
+    <div class="bg-primary w-full h-10 md:h-12"> </div>
+  </div>
+  <div id="projects">
+    <div class="bg-primary w-full h-10 md:h-12"> </div>
+    <Projects id="projects" />
+    <div class="bg-primary w-full h-10 md:h-12"> </div>
+  </div>
   <Contact id="contact" />
 </template>
 
