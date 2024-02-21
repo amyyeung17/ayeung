@@ -27,17 +27,17 @@ const showDemo = ref(false)
         </button>
       </template>
       <template #left>
-        <template v-if="currentOption === 'Completed'"> 
+        <template v-if="currentOption === 'complete'"> 
           <Card :item="projectsInfoFinish[0]" :demos="taskDemo" :demoDisplay="showDemo"/>
           <Card :item="projectsInfoFinish[1]" :demos="spotifyDemo" :demoDisplay="showDemo"/>
         </template>
         <template v-else>
-          <Card :item="projectsInfoUp[0]" />
+          
           <div class="md:h-28"> </div>
         </template>
       </template>
       <template #right>
-        <template v-if="currentOption === 'Completed'"> 
+        <template v-if="currentOption === 'complete'"> 
           <Card :item="projectsInfoFinish[2]" :demos="socialDemo" :demoDisplay="showDemo"/>
           <Card :item="projectsInfoFinish[3]"  :demos="vaDemo" :demoDisplay="showDemo"/>
         </template>

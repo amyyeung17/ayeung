@@ -28,12 +28,11 @@ const cardLinkStyle = linkStyle + 'mx-2 underline-offset-4'
     </p>
     <p class="mt-2"> <span class="bi bi-code-slash text-secondary mx-1"></span> {{ item.made }} </p>
     <div class="flex self-end text-primary-300 my-2">
-      <template v-if="item.extra !== 'notcomplete'"> 
+      <template v-if="item.extra === 'complete'"> 
         <a :class="cardLinkStyle" :href="item.info" target="_blank"> Info </a> /
         <a :class="cardLinkStyle" :href="item.live"> Live </a> /
         <a :class="cardLinkStyle" :href="item.code" target="_blank"> Code </a> 
       </template>
-      <p v-else :class="'font-medium mx-2 text-secondary'"> Not available yet  </p>
     </div>
   </div>
 </template>
