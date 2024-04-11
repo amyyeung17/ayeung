@@ -14,7 +14,7 @@ const getClass = (choice) => (
 </script>
 
 <template>
-  <div class="self-center flex justify-evenly w-1/2 py-2 px-3">
+  <div class="self-center flex justify-evenly w-1/2 py-2 px-3 mb-4">
     <button :class="getClass('progress')" @click="emits('on-options-click', 'progress')"> Current </button>
     <button :class="getClass('complete')" @click="emits('on-options-click', 'complete')"> Personal </button>
   </div>

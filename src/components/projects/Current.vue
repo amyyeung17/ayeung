@@ -3,7 +3,7 @@ import { linkStyle } from '../reusable/style.js';
 </script>
 
 <template>
-  <div class="bg-primary flex flex-col mt-4 w-full">
+  <div class="bg-primary flex flex-col max-lg:mt-4 w-full">
     <p class="font-medium mb-1 text-2xl text-secondary">Oppia</p>
     <p>
       A free open-source learning platform aimed to

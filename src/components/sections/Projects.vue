@@ -36,9 +36,10 @@ const showDemo = ref(false)
           <Card :item="projectsInfoFinish[1]" :demos="spotifyDemo" :demoDisplay="showDemo"/>
         </template>
         <template v-else>
-          <div class="flex h-full items-center max-md:mt-4 xl:mt-4 w-full">
+          <div class="flex max-lg:h-full items-center max-md:mt-4 w-full">
             <img alt="Image of Oppia website" :src="oppia" />
           </div>
+          <div class="md:h-32"></div>
           <div class="max-md:hidden">
             <Current2 />
           </div>
@@ -51,7 +52,7 @@ const showDemo = ref(false)
         </template>
         <template v-else> 
           <Current />
-          <div class="h-20"></div>
+          <div class="h-16 md:h-32"></div>
           <div class="flex h-full items-center max-md:mt-4 xl:mt-4 w-full">
             <img alt="Image of Green & Clean Philly website" :src="greencleanphilly" />
           </div>
