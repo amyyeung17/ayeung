@@ -8,9 +8,11 @@ import Layout from '../reusable/Layout.vue'
 import Layout2 from '../reusable/Layout2.vue'
 import Card from '../projects/Card.vue'
 import Current from '../projects/Current.vue'
+import Current2 from '../projects/Current2.vue'
 import Options from '../projects/Options.vue'
 import { socialDemo, spotifyDemo, taskDemo, vaDemo } from '../projects/demo/exportdemo'
 import oppia from '../projects/demo/oppia.png'
+import greencleanphilly from '../projects/demo/greencleanphilly.png'
 import Demo from '../projects/Demo.vue'
 
 const currentOption = ref('progress')
@@ -37,6 +39,9 @@ const showDemo = ref(false)
           <div class="flex h-full items-center max-md:mt-4 xl:mt-4 w-full">
             <img alt="Image of Oppia website" :src="oppia" />
           </div>
+          <div class="max-md:hidden">
+            <Current2 />
+          </div>
         </template>
       </template>
       <template #right>
@@ -44,7 +49,16 @@ const showDemo = ref(false)
           <Card :item="projectsInfoFinish[2]" :demos="socialDemo" :demoDisplay="showDemo"/>
           <Card :item="projectsInfoFinish[3]"  :demos="vaDemo" :demoDisplay="showDemo"/>
         </template>
-        <Current v-else/>
+        <template v-else> 
+          <Current />
+          <div class="h-20"></div>
+          <div class="flex h-full items-center max-md:mt-4 xl:mt-4 w-full">
+            <img alt="Image of Green & Clean Philly website" :src="greencleanphilly" />
+          </div>
+          <div class="md:hidden">
+            <Current2 />
+          </div>
+        </template>
       </template>
     </Layout>
   </div>
