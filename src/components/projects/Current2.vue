@@ -27,7 +27,7 @@ import { linkStyle } from "../reusable/style.js";
       </a>
     </p>
     <p class="mt-2">
-      <span class="bi bi-code-slash text-secondary mx-1"></span> Angular,
+      <span class="bi bi-code-slash text-secondary mx-1"></span>
       Next.js, TypeScript, Tailwind CSS
     </p>
     <div class="flex self-end text-primary-300 my-2">
