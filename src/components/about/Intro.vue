@@ -12,7 +12,7 @@ import { linkStyle } from '../reusable/style.js'
     {{`\n \n`}}
     I'm currently working a couple gigs and helping revamp the frontend of 
     <a :class="linkStyle + ' underline-offset-4 inline'" href="https://www.oppia.org/" target="_blank"> Oppia.</a>
-    In my downtime, I've been running a lot and playing Genshin Impact & Honaki Star Rail. 
+    In my downtime, I've been running a lot and practicing archery. 
     {{`\n \n`}}
     Talk to me anytime at: <a :class="linkStyle + ' underline-offset-4 inline'" href="mailto:amyyeung17@gmail.com">amyyeung17@gmail.com</a>.
   </div>

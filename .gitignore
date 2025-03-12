@@ -22,3 +22,5 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+/src/old
+/src/components/about/received_410857410483641.jpeg

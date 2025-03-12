@@ -13,7 +13,7 @@ import SkillIcons from '../skills/SkillIcons.vue'
     <p class="text-primary-100 text-center mt-2"> Additional frameworks/libraries: </p>
     <p class="text-primary-100 text-center mb-2"> Redux, Pinia, Express, Axios, Node.js, JQuery, Styled-components, Bootstrap, Tailwind </p>
     <a 
-      href="https://docs.google.com/document/d/1J4PMzaXwIZcMxVOcAcb23buX0372pUGVfo-1b4Tve1c/edit?usp=sharing"
+      href="https://docs.google.com/document/d/1W53lZPMyf3PC406VNlmrtM3F8TLmgPN_3KYlaLeHTj8/edit?usp=sharing"
       target="_blank"
       class="bg-secondary text-primary rounded-full border-2 border-secondary px-3 py-2 hover:ring-2 hover:text-primary relative top-4"
     > 

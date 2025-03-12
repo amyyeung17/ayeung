@@ -10,13 +10,10 @@ import Card from '../projects/Card.vue'
 import Current from '../projects/Current.vue'
 import Current2 from '../projects/Current2.vue'
 import Options from '../projects/Options.vue'
-import { socialDemo, spotifyDemo, taskDemo, vaDemo } from '../projects/demo/exportdemo'
 import oppia from '../projects/demo/oppia.png'
 import greencleanphilly from '../projects/demo/greencleanphilly.png'
-import Demo from '../projects/Demo.vue'
 
 const currentOption = ref('progress')
-const showDemo = ref(false)
 </script>
 
 <template>
@@ -25,15 +22,11 @@ const showDemo = ref(false)
       <template #top>
         <Heading :text="'Projects'" :extra-style="'sm:mb-0'"/>
         <Options :current-option="currentOption" @on-options-click="(c) => currentOption = c"/> 
-        <button v-if="currentOption === 'complete'" @click="() => showDemo = !showDemo" className="bg-transparent h-fit mr-3 self-end text-primary-100 hover:text-secondary w-fit"> 
-          {{showDemo ? 'Hide' : 'Show'}} Demos 
-          <span :className="`bi bi-arrows-${showDemo ? 'collapse' : 'expand'}`"> </span>
-        </button>
       </template>
       <template #left>
         <template v-if="currentOption === 'complete'"> 
-          <Card :item="projectsInfoFinish[0]" :demos="taskDemo" :demoDisplay="showDemo"/>
-          <Card :item="projectsInfoFinish[1]" :demos="spotifyDemo" :demoDisplay="showDemo"/>
+          <Card :item="projectsInfoFinish[0]" />
+          <Card :item="projectsInfoFinish[1]" />
         </template>
         <template v-else>
           <div class="flex max-lg:h-full items-center max-md:mt-4 w-full">
@@ -47,8 +40,8 @@ const showDemo = ref(false)
       </template>
       <template #right>
         <template v-if="currentOption === 'complete'"> 
-          <Card :item="projectsInfoFinish[2]" :demos="socialDemo" :demoDisplay="showDemo"/>
-          <Card :item="projectsInfoFinish[3]"  :demos="vaDemo" :demoDisplay="showDemo"/>
+          <Card :item="projectsInfoFinish[2]" />
+          <Card :item="projectsInfoFinish[3]" />
         </template>
         <template v-else> 
           <Current />
