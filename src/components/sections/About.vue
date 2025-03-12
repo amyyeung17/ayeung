@@ -10,9 +10,6 @@ import image from '../about/banana.jpeg'
   <Layout :lcol-style="'h-full justify-center'" :rcol-style="layoutTwoStyle + 'justify-center'"> 
     <template #left>
       <Heading :text="'About me'" />
-      <h3 class="text-primary-200 text-2xl font-medium px-3 my-2"> 
-        Philly native with an adventurous and curious heart. 
-      </h3>
       <Intro />
     </template>
     <template #right>
